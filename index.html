@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Nexify | AI-Powered SaaS Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Nexify</span>
+      </div>
+      <div class="nav-menu" id="navMenu">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn-outline-light" id="loginBtn">Login</button>
+        <button class="btn-primary" id="getStartedNav">Get Started</button>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-animation"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">✨ AI-Powered Automation</div>
+          <h1 class="hero-title">Scale your business<br>with <span class="gradient-text">Nexify</span> intelligence</h1>
+          <p class="hero-subtext">Next‑gen SaaS platform that streamlines workflows, boosts engagement, and delivers real‑time insights. Join 10k+ teams already scaling smarter.</p>
+          <div class="hero-buttons">
+            <button class="btn-primary btn-large" id="heroStartFree">Start Free Trial →</button>
+            <button class="btn-secondary btn-large" id="heroWatchDemo">▶ Watch Demo</button>
+          </div>
+        </div>
+        <div class="hero-mockup">
+          <div class="mockup-card glass-card">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-chart"></div>
+            <div class="mockup-stats"><div></div><div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUSTED BY -->
+    <section class="trusted">
+      <div class="container">
+        <p class="trusted-label">Trusted by industry leaders</p>
+        <div class="logo-cloud">
+          <span>Google</span><span>Microsoft</span><span>Slack</span><span>OpenAI</span><span>Vercel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Everything you need in one platform</h2>
+          <p>Powerful tools to accelerate your product's growth</p>
+        </div>
+        <div class="features-grid" id="featuresGrid"></div>
+      </div>
+    </section>
+
+    <!-- STATS SECTION -->
+    <section class="stats" id="statsSection">
+      <div class="container stats-grid" id="statsContainer"></div>
+    </section>
+
+    <!-- DASHBOARD PREVIEW -->
+    <section class="dashboard-preview">
+      <div class="container">
+        <div class="section-header">
+          <h2>Beautiful dashboard, real‑time data</h2>
+          <p>Monitor KPIs, track performance, and make data‑driven decisions.</p>
+        </div>
+        <div class="dashboard-mockup glass-card">
+          <div class="dashboard-glow"></div>
+          <div class="dashboard-ui"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Choose your plan</h2>
+          <p>Simple, transparent pricing — upgrade anytime.</p>
+        </div>
+        <div class="pricing-grid" id="pricingGrid"></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>Loved by creators and founders</h2>
+          <p>Join thousands of satisfied customers</p>
+        </div>
+        <div class="testimonials-grid" id="testimonialsGrid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ ACCORDION -->
+    <section class="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently asked questions</h2>
+          <p>Everything you need to know about Nexify</p>
+        </div>
+        <div class="faq-accordion" id="faqContainer"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-card glass-card">
+          <div class="contact-info">
+            <h3>Let's talk</h3>
+            <p>Have questions? We're here to help you scale.</p>
+            <div class="contact-detail">✉️ hello@nexify.ai</div>
+            <div class="contact-detail">📞 +1 (555) 789-1234</div>
+          </div>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" id="contactName" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="contactEmail" placeholder="Email address" required>
+            </div>
+            <div class="form-group">
+              <textarea id="contactMsg" rows="4" placeholder="How can we help?"></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Send Message →</button>
+            <p id="formFeedback" class="form-feedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">⚡ Nexify</div>
+          <p>Intelligent SaaS for modern teams.</p>
+          <div class="social-icons">
+            <span>🐦</span><span>📘</span><span>📸</span><span>🔗</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div><h4>Product</h4><a href="#">Features</a><a href="#">Pricing</a><a href="#">Integrations</a></div>
+          <div><h4>Company</h4><a href="#">About</a><a href="#">Blog</a><a href="#">Careers</a></div>
+          <div><h4>Resources</h4><a href="#">Documentation</a><a href="#">Support</a><a href="#">Status</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Nexify, Inc. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
